@@ -33,11 +33,11 @@ def fibonacci(n):
 def lucas(n):
     a = 2
     b = 1
-    print("*************This is lucas numbers*************")
+    # print("*************This is lucas numbers*************")
     if n == 1:
         # print(a)
         lucas_Arr.append(a)
-        print(lucas_Arr)
+        # print(lucas_Arr)
         return lucas_Arr 
     elif n < 0:
         print("Please enter positive numbers only")
@@ -52,7 +52,7 @@ def lucas(n):
             b = c
             # print(c)
             lucas_Arr.append(c)
-    print(lucas_Arr)
+    # print(lucas_Arr)
     return lucas_Arr 
 # lucas(1) 
 

@@ -9,6 +9,10 @@ def test_fibonacci_one():
     expected = 0
     actual = fibonacci(1)
     assert actual == expected
+def test_fibonacci():
+    expected = [0,1,1,2,3]
+    actual = fibonacci(5)
+    assert actual == expected
 
 # def test_fibonacci_negative():
 #     expected = "Please enter positive numbers only"
